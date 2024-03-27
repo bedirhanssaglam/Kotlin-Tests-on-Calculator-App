@@ -5,8 +5,8 @@ package com.example.calculator.enums
  * Each operator is associated with its corresponding character representation.
  */
 enum class Operators(val operator: Char) {
-    PLUS(operator = '+'),      // Represents the addition operator (+).
-    MINUS(operator = '-'),     // Represents the subtraction operator (-).
-    MULTIPLY(operator = '*'),  // Represents the multiplication operator (*).
-    DIVIDE(operator = '/')    // Represents the division operator (/).
+    PLUS('+'),     // Represents the addition operator (+).
+    MINUS('-'),    // Represents the subtraction operator (-).
+    MULTIPLY('*'), // Represents the multiplication operator (*).
+    DIVIDE('/')    // Represents the division operator (/).
 }
